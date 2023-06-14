@@ -5,9 +5,8 @@ class Comment extends Model {}
 
 Comment.init(
   {
-    commntBody: {
-      type: DataTypes.STRING,
-      allowNull: false,
+    commentBody: {
+      type: DataTypes.STRING
     },
   },
   {
